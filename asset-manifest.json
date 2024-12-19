@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/kinhub_project/static/js/main.d3974e91.js",
+    "main.js": "/kinhub_project/static/js/main.f9bd55ed.js",
     "static/css/421.5add3c72.chunk.css": "/kinhub_project/static/css/421.5add3c72.chunk.css",
-    "static/js/421.47c88007.chunk.js": "/kinhub_project/static/js/421.47c88007.chunk.js",
-    "static/js/959.ed9d448b.chunk.js": "/kinhub_project/static/js/959.ed9d448b.chunk.js",
-    "static/js/882.4eef5f91.chunk.js": "/kinhub_project/static/js/882.4eef5f91.chunk.js",
+    "static/js/421.0d246849.chunk.js": "/kinhub_project/static/js/421.0d246849.chunk.js",
+    "static/js/959.07f9ec35.chunk.js": "/kinhub_project/static/js/959.07f9ec35.chunk.js",
+    "static/js/882.a8140f06.chunk.js": "/kinhub_project/static/js/882.a8140f06.chunk.js",
     "static/js/34.f85286fe.chunk.js": "/kinhub_project/static/js/34.f85286fe.chunk.js",
     "static/js/258.089bbca0.chunk.js": "/kinhub_project/static/js/258.089bbca0.chunk.js",
     "static/js/783.134744fb.chunk.js": "/kinhub_project/static/js/783.134744fb.chunk.js",
@@ -18,6 +18,7 @@
     "static/media/aurumstreet1.svg": "/kinhub_project/static/media/aurumstreet1.22a85b5c62c8fe0984ae.svg",
     "static/media/avatar-1.jpg": "/kinhub_project/static/media/avatar-1.997fa945f79c3df41e5c.jpg",
     "static/media/Website Image-3.png": "/kinhub_project/static/media/Website Image-3.9a5f172d8ed78c04c111.png",
+    "static/media/kinhublogo1.png": "/kinhub_project/static/media/kinhublogo1.32c149a8e85ae7291a00.png",
     "static/media/avatar-4.jpg": "/kinhub_project/static/media/avatar-4.8bc41f8a581563becad3.jpg",
     "static/media/rocket image.png": "/kinhub_project/static/media/rocket image.8d228df2a54def371a01.png",
     "static/media/avatar-3.jpg": "/kinhub_project/static/media/avatar-3.65f48ef244ffbb373c9b.jpg",
@@ -25,12 +26,14 @@
     "static/media/avatar-2.jpg": "/kinhub_project/static/media/avatar-2.c9d9b0ca8574e9bb2ba0.jpg",
     "static/media/3dtriangle.png": "/kinhub_project/static/media/3dtriangle.f978961289bfe60ba064.png",
     "static/media/3dcapsule.png": "/kinhub_project/static/media/3dcapsule.b06cad0fcb2660765ed1.png",
+    "static/media/kinhublogo.png": "/kinhub_project/static/media/kinhublogo.5925caf2127d462c5d2f.png",
     "static/media/Develope.svg": "/kinhub_project/static/media/Develope.48a8617e6ae6d433ad24.svg",
     "static/media/mobile.svg": "/kinhub_project/static/media/mobile.1215c5b01c679c0c90f9e94b1c269935.svg",
     "static/media/Design.svg": "/kinhub_project/static/media/Design.ff903a950996991bf19b.svg",
     "static/media/human.svg": "/kinhub_project/static/media/human.7430a07a5e49fbda99d4b38ea3d0c97a.svg",
+    "static/media/logo.svg": "/kinhub_project/static/media/logo.c623cf77d0687677eb49.svg",
     "static/media/Support.svg": "/kinhub_project/static/media/Support.c20442deda3b566122ae.svg",
-    "static/media/logo.svg": "/kinhub_project/static/media/logo.6e71853ae22336bcd235.svg",
+    "static/media/kinhublogo.svg": "/kinhub_project/static/media/kinhublogo.01d696d835434eee8d27.svg",
     "static/media/slick.svg": "/kinhub_project/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/kinhub_project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/kinhub_project/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -44,17 +47,17 @@
     "static/media/linkedin-brands.svg": "/kinhub_project/static/media/linkedin-brands.d7833fba7bdcf55514c4109c6c1eb7d0.svg",
     "static/media/facebook-square-brands.svg": "/kinhub_project/static/media/facebook-square-brands.38c6b4e5a1568d1aa181dd4ff5b08e05.svg",
     "static/media/arrow-up.svg": "/kinhub_project/static/media/arrow-up.65164624ca1539634ee30e63113402a1.svg",
-    "main.d3974e91.js.map": "/kinhub_project/static/js/main.d3974e91.js.map",
+    "main.f9bd55ed.js.map": "/kinhub_project/static/js/main.f9bd55ed.js.map",
     "421.5add3c72.chunk.css.map": "/kinhub_project/static/css/421.5add3c72.chunk.css.map",
-    "421.47c88007.chunk.js.map": "/kinhub_project/static/js/421.47c88007.chunk.js.map",
-    "959.ed9d448b.chunk.js.map": "/kinhub_project/static/js/959.ed9d448b.chunk.js.map",
-    "882.4eef5f91.chunk.js.map": "/kinhub_project/static/js/882.4eef5f91.chunk.js.map",
+    "421.0d246849.chunk.js.map": "/kinhub_project/static/js/421.0d246849.chunk.js.map",
+    "959.07f9ec35.chunk.js.map": "/kinhub_project/static/js/959.07f9ec35.chunk.js.map",
+    "882.a8140f06.chunk.js.map": "/kinhub_project/static/js/882.a8140f06.chunk.js.map",
     "34.f85286fe.chunk.js.map": "/kinhub_project/static/js/34.f85286fe.chunk.js.map",
     "258.089bbca0.chunk.js.map": "/kinhub_project/static/js/258.089bbca0.chunk.js.map",
     "783.134744fb.chunk.js.map": "/kinhub_project/static/js/783.134744fb.chunk.js.map",
     "991.92d186f9.chunk.js.map": "/kinhub_project/static/js/991.92d186f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d3974e91.js"
+    "static/js/main.f9bd55ed.js"
   ]
 }
