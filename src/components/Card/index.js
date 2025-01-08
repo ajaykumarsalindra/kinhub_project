@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const CARD = styled.div`
-  height: calc(8rem + 12vw);
-  width: calc(9rem + 12vw);
+  height: calc(12rem + 12vw);
+  width: calc(12rem + 12vw);
   background-color: var(--nav2);
   border-radius: 20px;
   position: relative;
@@ -39,11 +39,17 @@ const TEXT = styled.h4`
 
 const NAME = styled.h3`
   color: var(--pink);
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-size: calc(0.5rem + 1vw);
 `;
 
-const Card = ({ name, text, image }) => {
+const DNAME = styled.h3`
+  color: var(--white);
+  padding-top: 0.5rem;
+  font-size: calc(0.5rem + 1vw);
+`;
+
+const Card = ({ name, dname, text, image }) => {
   const Avatar = require(`../../assets/${image}.jpg`);
 
   return (
@@ -51,6 +57,7 @@ const Card = ({ name, text, image }) => {
       <Image img={Avatar} width="400" height="400" />
       <TEXT>{text}</TEXT>
       <NAME>{name}</NAME>
+      <DNAME>{dname}</DNAME>
     </CARD>
   );
 };

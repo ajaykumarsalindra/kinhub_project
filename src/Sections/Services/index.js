@@ -6,11 +6,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Tube from "../../assets/3dtube.png";
 import Cone from "../../assets/3dtriangle.png";
 import Capsule from "../../assets/3dcapsule.png";
-import AurumPage from "../../assets/aurumpage1.png";
-
 
 import TextBlock from "../../components/TextBlock";
 import SvgBlock from "../../components/SvgBlock";
+
+import Aurumsconnect from "../../assets/Aurumsconnect.png";
+import Aurumstreet from "../../assets/aurumstreet.png";
+import Savegrams from "../../assets/savegrams.png";
+
 
 // const TextBlock = lazy(() => import("../../components/TextBlock"));
 // const SvgBlock = lazy(() => import("../../components/SvgBlock"));
@@ -59,6 +62,25 @@ const Title = styled.h1`
     bottom: 0;
     transform: translate(-50%, 0.5rem);
     /* or 100px */
+    border-bottom: 2px solid var(--pink);
+  }
+`;
+
+const ProductTitle = styled.h1`
+  color: var(--white);
+  font-size: 2rem;
+  margin: 2rem 0; /* Add spacing above and below the title */
+  text-align: center; /* Center the title horizontally */
+  position: relative;
+
+  &::before {
+    content: "";
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0.5rem);
     border-bottom: 2px solid var(--pink);
   }
 `;
@@ -117,19 +139,75 @@ const OBJ = styled.div`
   }
 `;
 
-const IMGOBJ = styled.div`
-  position: absolute;
-  
-  left: 60%;
-  display: flex; 
-  justify-content: center;
-  align-items: center; 
-  width: 40vw;
-  /* z-index: 1; */
 
-  @media only Screen and (max-width: 48em) {
-    opacity: 0.5;
+const products = [
+  {
+    id: 1,  
+    title: "Aurumsconnect",  
+    description: "Aurumsconnect is a groundbreaking platform transforming gold jewelry trading by connecting buyers and sellers directly in a secure and transparent environment. With features like KYC verification, AI-driven pricing, and virtual try-ons, it ensures effortless and reliable transactions.",
+    image: Aurumsconnect,
+  },
+  {
+    id: 2,
+    title: "Aurumstreet",
+    description: "Aurums Connect to Place is a digital platform from Aurumstreet that connects customers with jewelry stores across India, offering easy store discovery, product selection, and instant communication. It ensures a seamless, secure, and efficient jewelry-buying experience, both online and offline, empowering users to confidently find and purchase their perfect piece.",
+    image: Aurumstreet,
+  },
+  {
+    id: 3,
+    title: "Savegrams",
+    description: "Savegrams is more than a gold jewelry brand; it’s a trusted partner for customers seeking the best value for their gold. With our unmatched gold-buying rates, we’re set to redefine the industry standard and lead the market in customer trust and satisfaction.",
+    image: Savegrams,
+  },
+];
+
+const ProductContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+`;
+
+const ProductCard = styled.div`
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
   }
+
+  img {
+    width: 100%; /* Ensure the image fits the card's width */
+    height: 100px; /* Set a consistent height */
+    object-fit: contain; /* Scale the image to fit within the dimensions */
+    padding: 0.5rem; /* Add some padding to avoid edges if necessary */
+    background-color: #f9f9f9; /* Optional: Add a background to fill empty space */
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+`;
+
+const ContentProduct = styled.div`
+  display: flex;
+  flex-direction: column; /* Ensures vertical stacking */
+  align-items: center; /* Centers content horizontally */
+  padding: 2rem;
 `;
 
 const Services = () => {
@@ -396,29 +474,19 @@ const Services = () => {
         </OBJ>
         <SvgBlock svg="Support.svg" />
       </Content>
-      <Content>
-        <TextBlock
-          topic="Our Product"
-          title={<h1>Aurum Street</h1>}
-          subText={
-            <h5>
-              A Next-Generation E-Commerce Platform
-              Aurum Street is our flagship product, designed to redefine online shopping experiences. <br/>Built with scalability and performance in mind, it offers:<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp; - A seamless and intuitive user interface.<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp; - Advanced search and filtering capabilities.<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp; - Secure and reliable payment integrations.<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp; - Mobile responsiveness for an enhanced shopping experience on any device.<br/>
-              Aurum Street is the perfect choice for businesses seeking a robust and modern e-commerce platform.
-            </h5>
-          }
-        />      
-        <IMGOBJ>
-          <img src={AurumPage} alt="Aurum Object" width="400" height="400" />
-        </IMGOBJ> 
-           
-        
-        
-      </Content>
+      <ContentProduct>
+        <ProductTitle>Our Products</ProductTitle>
+        <ProductContainer>
+          {products.map((product) => (
+            <ProductCard key={product.id}>
+              <img src={product.image} alt={product.title} />
+              <h3>{product.title}</h3>
+              <p>{product.description}</p>
+            </ProductCard>
+          ))}
+        </ProductContainer>
+      </ContentProduct>
+      
     </ServiceSection>
   );
 };

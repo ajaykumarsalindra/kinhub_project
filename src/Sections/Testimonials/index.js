@@ -80,31 +80,22 @@ const Testimonials = () => {
 
   return (
     <Section>
-      <Title>Few good words about us!</Title>
+      <Title>Meet Our Crew Members!</Title>
       <Carousal>
         <Slider {...settings}>
           <Card
-            text="Collaborating with KinHub Infotech has been an amazing journey. Their innovative approach and top-notch support have transformed the way we do business."
-            name="Team of Aurumstreet"
+            text="The CEO of KINHUB Infotech brings over a decade of experience in digital technology, 3D animation, and gold finance, driving innovation and customer-focused solutions."
+            name="Mahadeva Reddy E"
+            dname="Founder & CEO"
             image="avatar-4"
           />          
 
           <Card
-            text="Working with KinHub has been a seamless experience. Their team truly understands how to turn ideas into reality with unmatched creativity and technical expertise."
-            name="Ajay"
+            text="The Engineering Director at KINHUB Infotech leverages six years of expertise in UI, UX, and backend technologies to deliver innovative and user-friendly platforms."
+            name="Srikanth Racharla"
+            dname="Engineering Director"
             image="avatar-2"
-          />
-
-          <Card
-            text="We couldn’t have asked for a better partner than KinHub Infotech. Their commitment to quality and timely delivery makes them stand out in the industry"
-            name="Team of Secondspace"
-            image="avatar-3"
-          />
-          <Card
-            text="KinHub Infotech has been an essential part of our business's digital transformation. Their innovative solutions and dedication have exceeded our expectations at every step."
-            name="Jenny"
-            image="avatar-1"
-          />
+          />         
 
           
         </Slider>
