@@ -1,6 +1,6 @@
 {
   "homepage": "https://ajaykumarsalindra.github.io/kinhub_project",
-  "name": "agency-website",
+  "name": "kinhub_project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,15 +16,14 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.3",
     "web-vitals": "^3.5.0"
-  }, 
-  
+  },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"    
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -45,8 +44,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.3.0"
   }
 }
-
-
